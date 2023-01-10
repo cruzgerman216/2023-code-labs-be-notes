@@ -17,7 +17,7 @@
 - Demonstrate the ternary operator
 - Give an example of the following operators: =, ==, !=, <, >, <= ,>=
 - Give an example of the following operators: ||, &&
-- Declare a variable called age. if age is less than 30, print "I am __INSERT_AGE_VARIABLE__ years old".
+- Declare a constant variable. if age is less than 30, print "I am __INSERT_AGE_VARIABLE__ years old".
 
 **Exercise 1.1: Print to the console** <br>
 - Create a file named exercise-1.1.rb and use the p method to print the string "p" to the console.
