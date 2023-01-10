@@ -15,7 +15,7 @@
 - Print the seventh character of "abcdefghijklmnopqrstuvwxyz".
 - The average of speed of a moving body for the overall distance that it has covered. Considering the formula s = d/t, s being the average, d being the total distance traveled and t being the total time taken. Declare variables d and t and set them to 30 and 10 respectively. Declare a variable called s and set that to average speed using the formula and the declared variables d and t.
 - Demonstrate the ternary operator
-- Give an example of the following operators: =, ==, !=, <, >, <= ,=>
+- Give an example of the following operators: =, ==, !=, <, >, <= ,>=
 - Give an example of the following operators: ||, &&
 - Declare a variable called age. if age is less than 30, print "I am __INSERT_AGE_VARIABLE__ years old".
 
