@@ -13,7 +13,7 @@
 - Demonstrate the following mathematical operators: addition, subtraction, division, multiplication, exponent and modulus
 - Use Concatenation to join the three following strings: "This is ", "an example of ", and "concatenation".
 - Print the seventh character of "abcdefghijklmnopqrstuvwxyz".
-- The average of speed of a moving body for the overall distance that it has covered. Considering the formula s = d/t, s being the average, d being the total distance traveled and t being the total time taken. Declare variables d and t and set them to 30 and 10 respectively. Declare a variable called s and set that to average speed using the formula and the declared variables d and t.
+- The overall distance that is covered over time is called average speed. Considering the formula s = d/t, s being the average, d being the total distance traveled and t being the total time taken. Declare variables d and t and set them to 30 and 10 respectively. Declare a variable called s and set that to average speed using the formula and the declared variables d and t.
 - Demonstrate the ternary operator
 - Give an example of the following operators: =, ==, !=, <, >, <= ,>=
 - Give an example of the following operators: ||, &&
