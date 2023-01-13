@@ -200,7 +200,7 @@ Create a Ruby file called exercise-2.14.rb.
 Create a Ruby file called exercise-2.15.rb
 
 1. Define a class called Person.
-2. Define a module called traits. In the module, define a method called eat and print out "Eating".
+2. Define a module called Traits. In the module, define a method called eat and print out "Eating".
 3. Include the module in the Person class. Allow each person instance to call these methods the module gives.
 
 ## Practice The Technical Interview
