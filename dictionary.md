@@ -1,4 +1,16 @@
-# Rails Dictionary
+# Dictionary
+
+
+### Gems 
+In Ruby, a gem is a package of code that can be shared, reused, and distributed among different projects and applications. Gems are used to add functionality to a Ruby application, and they typically include one or more Ruby files, as well as any necessary files such as documentation, tests, and binary files.
+
+A gem typically provides a specific set of functionality, such as an HTTP client library, a web framework, or a testing framework. Many gems are open-source and maintained by the Ruby community. They can be easily installed, updated, and managed using Ruby's built-in package manager, gem. You can find the ruby gems by searching in the rubygems.org.
+
+Creating a ruby gem involves following the steps like creating a project structure, creating a gemspec file, Building the gem and then publishing it to rubygems.org.
+
+
+### BCrypt
+Bcrypt is a Ruby gem that provides a simple wrapper for securely hashing passwords using the bcrypt algorithm. The bcrypt algorithm is a password hashing function that is designed to be secure and slow, making it difficult for attackers to use brute-force methods to guess a password. When a user's password is hashed with bcrypt, the resulting hash is unique for that password and cannot be reversed to reveal the original password. The bcrypt gem also includes a function for checking if a given password matches a previously hashed password, making it a useful tool for implementing secure user authentication in Ruby applications.
 
 ### Rails 
 
