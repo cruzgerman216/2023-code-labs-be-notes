@@ -243,7 +243,7 @@ require 'json'
 Iterate through each movie and print.
 
 ```ruby
-  def self.scrape_articles
+  def self.scrape_and_print_movies(year)
     puts "Fetching movies..."
     doc = Nokogiri::HTML(URI.open("#{URL}#{year}"))
     scraped_movies = JSON.parse(doc.text)
@@ -288,7 +288,7 @@ While user input is not exit, keep executing the code block. This will ensure th
   end
 ```
 
-Call print_articles from the Article class. Then ask the user to enter a number of the article they like to read.
+Call scrape_and_print_movies from the Scraper class. Then ask the user to enter a number of the article they like to read.
 
 ```ruby
 
