@@ -150,7 +150,7 @@ A patient can have multiple visits, but a visit can only be for one patient.
 
 ---
 
-**Repeat the following for exercises 1.10 - 1.15**
+**Repeat the following for exercises 1.11 - 1.15**
 Develop a many to many relationship.
 
 - add at least one attribute to every entity besides id.
