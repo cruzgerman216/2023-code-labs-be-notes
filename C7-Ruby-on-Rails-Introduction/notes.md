@@ -433,7 +433,7 @@ In the `end` action, render a template that will show all the information of the
 **Exercise 1.4: Errors**
 - Fix the [Rails project](https://github.com/cruzgerman216/CL-Rails-error-1)
 
-You should be able to navigate from page to page by click on each link. 
+You should be able to navigate from page to page by clicking on each link. 
 
 # Project Brainstorming 
 
