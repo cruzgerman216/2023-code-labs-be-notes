@@ -568,7 +568,7 @@ end
 
 - Create a simple Ruby on Rails application with a "Posts" resource. The "Posts" resource should have a title and a body. Use RESTful routes to map the CRUD operations to the appropriate actions and views. Do this manually without the scaffold generator.
 - Title and body should never be empty for a given post record.
-- Error messages should prompt the user when there is problem saving an invalid post 
+- Error messages should prompt the user when there is a problem saving an invalid post 
 - Use partials to refactor the view templates 
   
 - Use the faker gem and the seeds file to populate the database with more than 50 post records
