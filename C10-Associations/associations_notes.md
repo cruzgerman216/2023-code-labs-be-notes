@@ -449,7 +449,7 @@ end
 
 **Exercise 1: One to many relationships**
 
-- Create a new Rails. Establish a has_many and belongs_to association between blogs and users. 
+- Create a new Rails application. Establish a has_many and belongs_to association between blogs and users. 
   - A blog belongs to a user 
   - A user has many blogs 
 
