@@ -481,7 +481,7 @@ In the Rails console, create several courses and students.
 
 Allow a student to have more than one course. 
 
-**Exercise 3: has_and_belongs_to_many association**
+**Exercise 3: has_and_belongs_to_many Association**
 
 What's the difference between a has_many through and a has_and_belongs_to_many association? 
 
