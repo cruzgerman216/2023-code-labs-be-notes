@@ -175,20 +175,19 @@ bundle install
 
 ```ruby
 # Create 5 categories
-(0..5).each do
+5.times do
   category = Category.create(name: Faker::Book.genre)
 end
 
 categories = Category.all
 
-# Create books based on each category
-(0..rand(0..5)).each do
+rand(0..5).times do 
   book = Book.new(title: Faker::Book.title, summary: Faker::Lorem.paragraph, image_path: "https://blog.springshare.com/wp-content/uploads/2010/02/nc-md.gif")
   # randomly choose categorires for books
   book.categories = categories.sample(rand(0..6))
   book.save
-    # Create reviews based on each book
-    (0..rand(0..5)).each do
+  # Create reviews based on each book
+    rand(0..5).times do
       book.reviews.create(rating: (rand(0..5)), content: Faker::Lorem.paragraph)
     end
 end
@@ -265,8 +264,8 @@ end
 
 ```html
 <div>
-  <%= form.label :categories %> <%= form.collection_select(:category_ids,
-  Category.all, :id, :name, {}, { multiple: true }) %>
+  <%= form.label :categories %> 
+<%= form.collection_select(:category_ids, Category.all, :id, :name, { multiple: true }) %>
 </div>
 ```
 
@@ -447,9 +446,9 @@ end
 
 <hr />
 
-**Exercise 1: One To Many Relationship**
+**Exercise 1: One to many relationships**
 
-- Create a new Rails application. Establish a has_many and belongs_to association between blogs and users. 
+- Create a new Rails. Establish a has_many and belongs_to association between blogs and users. 
   - A blog belongs to a user 
   - A user has many blogs 
 
@@ -481,7 +480,7 @@ In the Rails console, create several courses and students.
 
 Allow a student to have more than one course. 
 
-**Exercise 3: has_and_belongs_to_many Association**
+**Exercise 3: has_and_belongs_to_many association**
 
 What's the difference between a has_many through and a has_and_belongs_to_many association? 
 
