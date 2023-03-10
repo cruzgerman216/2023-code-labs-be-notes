@@ -52,6 +52,7 @@ Rails.application.routes.draw do
 end
 ```
 
+## Create a resource with Postman
 **app/controllers/resources_controller.rb**
 
 ```ruby 
