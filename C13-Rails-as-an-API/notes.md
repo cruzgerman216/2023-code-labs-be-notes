@@ -52,6 +52,23 @@ Rails.application.routes.draw do
 end
 ```
 
+**app/controllers/resources_controller.rb**
+
+```ruby 
+class ResourcesController < ApplicationController
+    def create
+      resource = Resource.new(content: params[:content], link: params[:link])
+
+      # define response
+      if resource.save
+        render json: resource, status: :created
+      else
+        render json: {errors: resource.errors}, status: :unprocessable_entity
+      end
+    end
+end
+```
+
 Use postman to create a resource.
 
 1. Create a workspace
@@ -85,16 +102,7 @@ You should get the following as the response body.
 
 ```ruby
 class ResourcesController < ApplicationController
-    def create
-      resource = Resource.new(content: params[:content], link: params[:link])
 
-      # define response
-      if resource.save
-        render json: resource, status: :created
-      else
-        render json: {errors: resource.errors}, status: :unprocessable_entity
-      end
-    end
 
     def index
       resources = Resource.all
