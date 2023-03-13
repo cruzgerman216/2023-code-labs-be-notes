@@ -1296,7 +1296,7 @@ result = User.login(params[:email], params[:password], @ip)
 
 We have the User model handling the logic to the login but models shouldn't deal with the requests, rather, models are only associated with business logic (interacting with the database). We can instead direct our attention to services.
 
-<img src="https://yourdiamondteacher.com/wp-content/uploads/2017/03/BUT-WAIT-THERES-MORE.png" >
+![image](https://yourdiamondteacher.com/wp-content/uploads/2017/03/BUT-WAIT-THERES-MORE.png)
 
 #### Plain Old Ruby Objects
 
