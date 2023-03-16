@@ -295,6 +295,9 @@ end
 
 Test in postman. Be sure to login first because these requests need a token
 
+**Warm Up**
+Need a warm up? Go through the notes step by step and if you have any questions, ask your Code Coach!
+
 ## Full Stack Project
 
 [Click here to see project requirements](../projects/FS-project.md)
